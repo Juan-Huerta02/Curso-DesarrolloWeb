@@ -12,30 +12,6 @@ body{
     font-style: normal;
 }
 
-@media (max-width:1300px) {
-    body {
-        font-size: 1.4rem;
-    }
-}
-
-@media (max-width:850px) {
-    body {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width:670px) {
-    body {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width:500px) {
-    body {
-        font-size: 0.6rem;
-    }
-}
-
 header {
     width: 100%;
     height: 10%;
@@ -65,63 +41,7 @@ nav {
 
 .NavLogo img{
     width: 10.875rem;
-    filter: drop-shadow(.3125rem .3125rem .125rem #1a1919);
-}
-
-@media (max-width:1200px) {
-    nav {
-        font-size: 1.4rem;
-    }
-
-    .NavBar {
-        gap: 2.5rem;
-    }
-
-    .NavLogo img{
-        width: 8rem;
-    }
-}
-
-@media (max-width:850px) {
-    nav {
-        font-size: 1rem;
-    }
-
-    .NavBar {
-        gap: 1.875rem;
-    }
-
-    .NavLogo img{
-        width: 5.7rem;
-    }
-}
-
-@media (max-width:670px) {
-    nav {
-        font-size: 0.8rem;
-    }
-
-    .NavBar {
-        gap: 1.25rem;
-    }
-
-    .NavLogo img{
-        width: 5rem;
-    }
-}
-
-@media (max-width:500px) {
-    nav {
-        font-size: 0.6rem;
-    }
-
-    .NavBar {
-        gap: .625rem;
-    }
-
-    .NavLogo img{
-        width: 3rem;
-    }
+    filter: drop-shadow(2px 2px 1px #1a1919);
 }
 
 main {
@@ -144,33 +64,9 @@ footer ul {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    gap: 1.875rem;
-    margin-right: 1.875rem;
+    gap: 3.5rem;
+    margin-right: 3%;
     color: white;
-}
-
-@media (max-width:1200px) {
-    footer ul {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width:850px) {
-    footer ul {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width:670px) {
-    footer ul {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width:500px) {
-    footer ul {
-        font-size: 0.6rem;
-    }
 }
 
 footer li {
@@ -187,7 +83,7 @@ footer div {
 .Hypergryph img{
     height: 70%;
     width: 70%;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .Gryphline img{
@@ -198,6 +94,222 @@ footer div {
 .Yostar img{
     height: 70%;
     width: 70%;
+}
+
+@media (max-width: 1314px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    header {
+        height: 12%;
+    }
+    
+    nav {
+        font-size: 1.4rem;
+    }
+
+    .NavBar {
+        gap: 2.5rem;
+    }
+
+    .NavLogo img{
+        width: 8rem;
+    }
+    
+    footer ul {
+        font-size: 1.2rem;
+        gap:3rem
+    }
+}
+
+@media (max-width: 1085px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 12%;
+    }
+    
+    nav {
+        font-size: 1.4rem;
+    }
+
+    .NavBar {
+        gap: 2.5rem;
+    }
+
+    .NavLogo img{
+        width: 8rem;
+    }
+    
+    footer ul {
+        font-size: 1.2rem;
+        gap:3rem
+    }
+}
+
+@media (max-width: 940px) {
+    body {
+        font-size: 1rem;
+    }
+
+    header {
+        height: 15%;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
+
+    .NavBar {
+        gap: 1.875rem;
+    }
+
+    .NavLogo img{
+        width: 5.7rem;
+    }
+
+    footer ul {
+        font-size: 1rem;
+        gap:2.5rem
+    }
+}
+
+@media (max-width: 780px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header {
+        height: 15%;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
+
+    .NavBar {
+        gap: 1.875rem;
+    }
+
+    .NavLogo img{
+        width: 5.7rem;
+    }
+
+    footer ul {
+        font-size: 1rem;
+        gap:2.5rem
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    header {
+        height: 17%;
+    }
+
+    nav {
+        font-size: 0.7rem;
+    }
+
+    .NavBar {
+        gap: 1rem;
+    }
+
+    .NavLogo img{
+        width: 5rem;
+    }
+
+    footer ul {
+        font-size: 0.8rem;
+        gap: 2rem
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 0.7rem;
+    }
+
+    header {
+        height: 20%;
+    }
+
+    nav {
+        font-size: 0.5rem;
+    }
+
+    .NavBar {
+        gap: .6rem;
+    }
+
+    .NavLogo img{
+        width: 3rem;
+    }
+
+    footer ul {
+        font-size: 0.4rem;
+        gap: 1.5rem
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 0.6rem;
+    }
+
+    header {
+        height: 20%;
+    }
+
+    nav {
+        font-size: 0.5rem;
+    }
+
+    .NavBar {
+        gap: .6rem;
+    }
+
+    .NavLogo img{
+        width: 3rem;
+    }
+
+    footer ul {
+        font-size: 0.4rem;
+        gap: 1.5rem
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size: 0.5rem;
+    }
+
+    header {
+        height: 20%;
+    }
+
+    nav {
+        font-size: 0.4rem;
+    }
+
+    .NavBar {
+        gap: .6rem;
+    }
+
+    .NavLogo img{
+        width: 2rem;
+    }
+
+    footer ul {
+        font-size: 0.3rem;
+        gap: 1.2rem
+    }
 }
 
 /*-----------------------------------------------------------------------------------------------INDEX---------------------------------------------------------------------------------------------------------------*/
@@ -236,46 +348,6 @@ footer div {
     font-size: 1.5rem;
     align-self: center;
     color: white;
-}
-
-@media (max-width:1300px) {
-    .Motto1 {
-        font-size: 1.6rem;
-    }
-
-    .Motto2 {
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width:850px) {
-    .Motto1 {
-        font-size: 1.3rem;
-    }
-
-    .Motto2 {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width:670px) {
-    .Motto1 {
-        font-size: 1rem;
-    }
-
-    .Motto2 {
-        font-size: 0.6rem;
-    }
-}
-
-@media (max-width:500px) {
-    .Motto1 {
-        font-size: 0.8rem;
-    }
-
-    .Motto2 {
-        font-size: 0.4rem;
-    }
 }
 
 .Legend1 {
@@ -395,6 +467,7 @@ section .SubBanner2 {
     margin-bottom: 2.5%;
     grid-column: 4/5;
     grid-row: 1/2;
+    object-fit: contain;
 }
 
 .BSW img{
@@ -404,6 +477,7 @@ section .SubBanner2 {
     margin-bottom: 2.5%;
     grid-column: 5/6;
     grid-row: 1/2;
+    object-fit: contain;
 }
 
 .Maylander img{
@@ -413,6 +487,7 @@ section .SubBanner2 {
     margin-bottom: 2.5%;
     grid-column: 6/7;
     grid-row: 1/2;
+    object-fit: contain;
 }
 
 section .SubBanner3 {
@@ -452,6 +527,147 @@ section .SubBanner3 {
     grid-row: 1/2;
 }
 
+@media (max-width: 1300px) {
+    .Motto1 {
+        font-size: 1.6rem;
+    }
+
+    .Motto2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .Motto1 {
+        font-size: 1.3rem;
+    }
+
+    .Motto2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .HeadBanner-index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HeadBanner-index img {
+        width: 35%;
+        filter: drop-shadow(1px 1px 0.5px #1a1919);
+    }
+
+    .Motto1 {
+        font-size: 1rem;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 1%;
+    }
+
+    .Motto2 {
+        font-size: 0.6rem;
+        text-align: right;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 3%;
+    }
+
+    section .SubBanner1 {
+        justify-self: center;
+        width: 90%;
+        box-shadow: 0px 1px 1px #2e2d2d;
+    }
+
+    section .SubBanner2 {
+        justify-self: center;
+        width: 90%;
+        box-shadow: 0px 1px 1px #2e2d2d;
+    }
+
+    section .SubBanner3 {
+        justify-self: center;
+        width: 90%;
+        box-shadow: 0px 1px 1px #2e2d2d;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .HeadBanner-index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HeadBanner-index img {
+        width: 30%;
+        filter: drop-shadow(1px 1px 0.5px #1a1919);
+    }
+
+    .Motto1 {
+        font-size: 0.65rem;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 1%;
+    }
+
+    .Motto2 {
+        font-size: 0.4rem;
+        text-align: right;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 3%;
+    }
+
+    .SubBanner1 {
+        justify-self: center;
+        width: 90%;
+        box-shadow: 0px 1px 1px #2e2d2d;
+    }
+
+    .SubBanner1 a {
+        display: none;
+    }
+
+    .SubBanner2 {
+        justify-self: center;
+        width: 90%;
+        box-shadow: 0px 1px 1px #2e2d2d;
+    }
+
+    .SubBanner2 a {
+        display: none;
+    }
+
+    .SubBanner3 {
+        justify-self: center;
+        width: 90%;
+        box-shadow: 0px 1px 1px #2e2d2d;
+    }
+
+    .SubBanner3 a {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .HeadBanner-index img {
+        width: 20%;
+    }
+
+    .Motto1 {
+        font-size: 0.5rem;
+    }
+
+    .Motto2 {
+        font-size: 0.3rem;
+    }
+}
+
 /*-------------------------------------------------------------------------------------------ABOUT-------------------------------------------------------------------------------------------------------------------*/
 
 .HeadBanner-About {
@@ -487,6 +703,7 @@ section .SubBanner3 {
     grid-template-columns: repeat(4, 1fr);
     width: 95%;
     height: 50%;
+    color: black;
     background-color: #969696;
 }
 
@@ -495,15 +712,13 @@ section .SubBanner3 {
     font-weight: 300;
     justify-self: center;
     align-self: center;
-    color: black;
 }
 
 .Legend2 p {
     grid-column: 2/5;
     justify-self: center;
     align-self: center;
-    padding: 3.125rem;
-    color: black;
+    padding: 5%;
 }
 
 .Mission1 {
@@ -542,54 +757,57 @@ section .SubBanner3 {
 }
 
 .Legend3 {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     width: 95%;
     background-color: #969696;
 }
 
 .Legend3 h2{
     font-weight: 300;
-    grid-column: 5/10;
-    grid-row: 2/3;
     justify-self: center;
-    align-self: center;
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    padding-top: 5%;
 }
 
 .Legend3 p {
-    grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 3;
-    grid-row-end: 4;
     text-align: right;
-    justify-self: center;
-    align-self: center;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
 }
 
 .Achievements {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    display: flex;
     width: 95%;
-    padding-bottom: 5rem;
     background-color: #969696;
 }
 
 .Achievements h2 {
-    grid-column: 1/6;
-    grid-row: 1/2;
     font-weight: 300;
-    justify-self: center;
+    justify-self: left;
     align-self: center;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}
+
+.Achievements-Summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    gap: 2%;
+    padding-bottom: 11%;
+    background-color: #969696;
 }
 
 .Suppressant {
-    grid-column: 1/4;
-    grid-row: 2/5;
     font-size: 1rem;
-    width: 17.8125rem;
-    height: 22rem;
+    width: 15.625rem;
+    height: 20rem;
     border-radius: .3125rem;
     text-align: center;
     justify-self: center;
@@ -600,20 +818,19 @@ section .SubBanner3 {
 
 .Suppressant dt{
     padding-top: 1.25rem;
-    padding-bottom: 2.50rem;
+    padding-bottom: 1rem;
 }
 
 .Suppressant img{
-    width: 17.8125rem; height: 17.375rem;
+    width: 15.625rem; 
+    height: 15.5rem;
     border-radius: 1rem;
 }
 
 .Envoys {
-    grid-column: 4/7;
-    grid-row: 2/5;
     font-size: 1rem;
-    width: 17.8125rem;
-    height: 22rem;
+    width: 15.625rem;
+    height: 20rem;
     border-radius: .3125rem;
     text-align: center;
     justify-self: center;
@@ -628,8 +845,632 @@ section .SubBanner3 {
 }
 
 .Envoys img{
-    width: 17.0625rem; height: 17rem;
+    width: 15rem; 
+    height: 15rem;
     border-radius: 1rem;
+}
+
+.Provisional {
+    font-size: 1rem;
+    width: 15.625rem;
+    height: 20rem;
+    border-radius: .3125rem;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.Provisional dt{
+    padding-top: 1.25rem;
+    padding-bottom: 2.50rem;
+}
+
+.Provisional img{
+    width: 15.625rem; 
+    height: 15.5rem;
+    border-radius: 1rem;
+}
+
+.Provisional2 {
+    font-size: 1rem;
+    width: 15.625rem;
+    height: 20rem;
+    border-radius: .3125rem;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.Provisional2 dt{
+    padding-top: 1.25rem;
+    padding-bottom: 2.50rem;
+}
+
+.Provisional2 img{
+    width: 15.625rem; 
+    height: 15.5rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 1350px) {
+    .HeadBanner-About p {
+        font-size: 1.5rem;
+    }
+
+    .Achievements-Summary {
+        padding-bottom: 13%;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.917rem;
+    }
+
+    .Suppressant {
+        width: 13rem;
+        height: 18rem;
+    }
+    
+    .Suppressant dt{
+        padding-top: 1.10rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .Suppressant img{
+        width: 13rem; 
+        height: 13rem;
+        border-radius: 1rem;
+    }
+
+    .Envoys {
+        width: 13rem;
+        height: 18rem;
+    }
+    
+    .Envoys dt{
+        padding-top: 2rem;
+        padding-bottom: 2.7rem;
+    }
+    
+    .Envoys img{
+        width: 13rem; 
+        height: 13rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional {
+        width: 13rem;
+        height: 18rem;
+    }
+    
+    .Provisional dt{
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .Provisional img{
+        width: 13rem; 
+        height: 13rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional2 {
+        width: 13rem;
+        height: 18rem;
+    }
+    
+    .Provisional2 dt{
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .Provisional2 img{
+        width: 13rem; 
+        height: 13rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 1085px) {
+    .HeadBanner-About p {
+        font-size: 1.3rem;
+    }
+
+    .Achievements-Summary {
+        padding-bottom: 17%;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.857rem;
+    }
+
+    .Suppressant {
+        width: 11rem;
+        height: 16rem;
+    }
+    
+    .Suppressant dt{
+        font-size: 0.9rem;
+        padding-top: 1.10rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .Suppressant img{
+        width: 11rem; 
+        height: 11rem;
+        border-radius: 1rem;
+    }
+
+    .Envoys {
+        width: 11rem;
+        height: 16rem;
+    }
+    
+    .Envoys dt{
+        font-size: 0.9rem;
+        padding-top: 2rem;
+        padding-bottom: 2.7rem;
+    }
+    
+    .Envoys img{
+        width: 11rem; 
+        height: 11rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional {
+        width: 11rem;
+        height: 16rem;
+    }
+    
+    .Provisional dt{
+        font-size: 0.9rem;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .Provisional img{
+        width: 11rem; 
+        height: 11rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional2 {
+        width: 11rem;
+        height: 16rem;
+    }
+    
+    .Provisional2 dt{
+        font-size: 0.9rem;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .Provisional2 img{
+        width: 11rem; 
+        height: 11rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .HeadBanner-About p {
+        font-size: 1.1rem;
+    }
+
+    .Achievements-Summary {
+        padding-bottom: 22%;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.85rem;
+    }
+
+    .Achievements-Summary dl dt {
+        font-size: 0.9rem;
+    }
+
+    .Suppressant {
+        width: 9.5rem;
+        height: 14.5rem;
+    }
+    
+    .Suppressant dt{
+        padding-top: 1.10rem;
+        padding-bottom: 0.65rem;
+    }
+    
+    .Suppressant img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+
+    .Envoys {
+        width: 9.5rem;
+        height: 14.5rem;
+    }
+    
+    .Envoys dt{
+        padding-top: 2rem;
+        padding-bottom: 2.9rem;
+    }
+    
+    .Envoys img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional {
+        width: 9.5rem;
+        height: 14.5rem;
+    }
+    
+    .Provisional dt{
+        padding-top: 2rem;
+        padding-bottom: 2.9rem;
+    }
+    
+    .Provisional img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional2 {
+        width: 9.5rem;
+        height: 14.5rem;
+    }
+    
+    .Provisional2 dt{
+        padding-top: 2rem;
+        padding-bottom: 2.9rem;
+    }
+    
+    .Provisional2 img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .HeadBanner-About p {
+        font-size: 1.1rem;
+    }
+
+    .Achievements-Summary {
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.85rem;
+    }
+
+    .Achievements-Summary dl dt {
+        font-size: 1rem;
+    }
+
+    .Suppressant {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Suppressant dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Suppressant img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+
+    .Envoys {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Envoys dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Envoys img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Provisional dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Provisional img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional2 {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Provisional2 dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Provisional2 img{
+        width: 9.5rem; 
+        height: 9.5rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .HeadBanner-About p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .HeadBanner-About p {
+        font-size: 0.9rem;
+    }
+
+    .Achievements-Summary {
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.75rem;
+    }
+
+    .Achievements-Summary dl dt {
+        font-size: 0.9rem;
+    }
+
+    .Suppressant {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Suppressant dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Suppressant img{
+        width: 8.9rem; 
+        height: 8.9rem;
+        border-radius: 1rem;
+    }
+
+    .Envoys {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Envoys dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Envoys img{
+        width: 8.9rem; 
+        height: 8.9rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Provisional dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Provisional img{
+        width: 8.9rem; 
+        height: 8.9rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional2 {
+        width: 80%;
+        height: 15rem;
+        margin-bottom: 3%;
+    }
+    
+    .Provisional2 dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Provisional2 img{
+        width: 8.9rem; 
+        height: 8.9rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .HeadBanner-About p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .HeadBanner-About p {
+        font-size: 0.7rem;
+    }
+
+    .Legend2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Legend2 h1 {
+        padding-top: 3%;
+    }
+
+    .Legend2 p {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 3%;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.69rem;
+    }
+
+    .Achievements-Summary dl dt {
+        font-size: 0.8rem;
+    }
+
+    .Suppressant {
+        width: 80%;
+        height: 13.5rem;
+        margin-bottom: 3%;
+    }
+    
+    .Suppressant dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Suppressant img{
+        width: 6.5rem; 
+        height: 6.5rem;
+        border-radius: 1rem;
+    }
+
+    .Envoys {
+        width: 80%;
+        height: 13.5rem;
+        margin-bottom: 3%;
+    }
+    
+    .Envoys dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Envoys img{
+        width: 6.5rem; 
+        height: 6.5rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional {
+        width: 80%;
+        height: 13.5rem;
+        margin-bottom: 3%;
+    }
+    
+    .Provisional dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Provisional img{
+        width: 6.5rem; 
+        height: 6.5rem;
+        border-radius: 1rem;
+    }
+
+    .Provisional2 {
+        width: 80%;
+        height: 13.5rem;
+        margin-bottom: 3%;
+    }
+    
+    .Provisional2 dt{
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .Provisional2 img{
+        width: 6.5rem; 
+        height: 6.5rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .HeadBanner-About p {
+        font-size: 0.65rem;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.65rem;
+    }
+
+    .Achievements-Summary dl dt {
+        font-size: 0.7rem;
+    }
+
+    .Suppressant {
+        height: 12.2rem;
+    }
+
+    .Envoys {
+        height: 12.2rem;
+    }
+
+    .Provisional {
+        height: 12.2rem;
+    }
+
+    .Provisional2 {
+        height: 12.2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .HeadBanner-About p {
+        font-size: 0.5rem;
+    }
+
+    .Achievements-Summary dl dd {
+        font-size: 0.6rem;
+    }
+
+    .Achievements-Summary dl dt {
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .HeadBanner-About p {
+        font-size: 0.45rem;
+    }
 }
 
 /*--------------------------------------------------------------------------------------AFFILIATES--------------------------------------------------------------------------------------------------------------------*/
@@ -639,18 +1480,17 @@ section .SubBanner3 {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 95%;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .HeadBanner-Affiliates img{
-    width: 86.875rem; height: 27.9375rem;
     width: 100%;
     grid-row: 1/5;
     grid-column: 1/6;
     justify-self: center;
     align-self: center;
-    box-shadow: 0rem .125rem .125rem #222121;
+    box-shadow: 0px 2px 2px #222121;
 }
 
 .HeadBanner-Affiliates p {
@@ -669,14 +1509,14 @@ section .SubBanner3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 4.0625rem;
-    margin-bottom: 3.125rem;
+    padding: 4%;
+    margin-bottom: 3%;
     width: 80%;
     background-color: #545454;
 }
 
 .BlackSteelSec img{
-    width: 36.3125rem; height: 20.4375rem;
+    width: 100%;
     border-radius: .75rem;
     grid-column: 1/2;
     grid-row: 1/3;
@@ -697,14 +1537,14 @@ section .SubBanner3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-bottom: 3.125rem;
-    padding: 4.0625rem;
+    padding: 4%;
+    margin-bottom: 3%;
     width: 80%;
     background-color: #545454;
 }
 
 .Rhine_LabSec img{
-    width: 36.3125rem; height: 20.4375rem;
+    width: 100%;
     border-radius: .75rem;
     grid-column: 2/3;
     grid-row: 1/3;
@@ -726,14 +1566,14 @@ section .SubBanner3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-bottom: 3.125rem;
-    padding: 4.0625rem;
+    padding: 4%;
+    margin-bottom: 3%;
     width: 80%;
     background-color: #545454;
 }
 
 .Karlan_TradeSec img{
-    width: 36.3125rem; height: 20.4375rem;
+    width: 100%;
     border-radius: .75rem;
     grid-column: 1/2;
     grid-row: 1/3;
@@ -754,15 +1594,15 @@ section .SubBanner3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-bottom: 3.125rem;
-    padding: 4.0625rem;
+    padding: 4%;
+    margin-bottom: 3%;
     width: 80%;
     background-color: #545454;
     box-shadow: 0rem .125rem .125rem #222121;
 }
 
 .MaylanderSec img{
-    width: 36.3125rem; height: 20.4375rem;
+    width: 100%;
     border-radius: .75rem;
     grid-column: 2/3;
     grid-row: 1/3;
@@ -780,6 +1620,256 @@ section .SubBanner3 {
     text-align: right;
 }
 
+@media (max-width: 1300px) {
+    .HeadBanner-Affiliates p {
+        font-size: 2rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 1.17rem;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 1.17rem;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 1.17rem;
+    }
+
+    .Maylander p {
+        font-size: 1.17rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .HeadBanner-Affiliates p {
+        font-size: 1.8rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 1.13rem;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 1.13rem;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 1.13rem;
+    }
+
+    .Maylander p {
+        font-size: 1.13rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .HeadBanner-Affiliates p {
+        font-size: 1.6rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 1.05rem;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 1.05rem;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 1.05rem;
+    }
+
+    .Maylander p {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 1030px) {
+    .HeadBanner-Affiliates p {
+        font-size: 1.6rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 1rem;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 1rem;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 1rem;
+    }
+
+    .Maylander p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 930px) {
+    .HeadBanner-Affiliates p {
+        font-size: 1.5rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 0.85rem;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 0.85rem;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 0.85rem;
+    }
+
+    .Maylander p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .HeadBanner-Affiliates p {
+        font-size: 1.2rem;
+    }
+
+    .BlackSteelSec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .BlackSteelSec p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .BlackSteelSec img {
+        width: 60%;
+        margin-bottom: 2%;
+    }
+
+    .Rhine_LabSec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .Rhine_LabSec img{
+        width: 60%;
+        margin-bottom: 2%;
+    }
+
+    .Karlan_TradeSec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .Karlan_TradeSec img{
+        width: 60%;
+        margin-bottom: 2%;
+    }
+
+    .MaylanderSec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MaylanderSec p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .MaylanderSec img{
+        width: 60%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 800px) {
+    .HeadBanner-Affiliates p {
+        font-size: 1rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .MaylanderSec p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .HeadBanner-Affiliates p {
+        font-size: 0.8rem;
+    }
+
+    .BlackSteelSec p {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .Rhine_LabSec p {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .Karlan_TradeSec p {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .MaylanderSec p {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+    .HeadBanner-Affiliates p {
+        font-size: 0.69rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .HeadBanner-Affiliates p {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .HeadBanner-Affiliates p {
+        font-size: 0.5rem;
+    }
+}
+
 /*-------------------------------------------------------------------------------------------------------SERVICES-----------------------------------------------------------------------------------------------------*/
 
 .HeadBanner-Services {
@@ -787,8 +1877,9 @@ section .SubBanner3 {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 95%;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .HeadBanner-Services img{
     width: 100%;
@@ -796,26 +1887,28 @@ section .SubBanner3 {
     grid-row: 1/5;
     justify-self: center;
     align-self: center;
-    box-shadow: 0rem .125rem .125rem #222121;
+    box-shadow: 0px 2px 2px #222121;
 }
 
 .HeadBanner-Services p {
-    grid-column-start: 7;
+    grid-column-start: 6;
     grid-column-end: 12;
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: 5;
+    font-size: 2.25rem;
     color: white;
     text-align: right;
 }
 
 .Legend4 {
     width: 95%;
-    height: 20rem;
+    padding-top: 7%;
+    padding-bottom: 7%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    background-color: #545454;
-    margin-bottom: 3.75rem;
+    background-color: #969696;
+    margin-bottom: 4.2%;
     box-shadow: 0rem .125rem .125rem #222121;
 }
 
@@ -824,7 +1917,7 @@ section .SubBanner3 {
     font-size: 2.5rem;
     grid-column: 1/2;
     grid-row: 1/3;
-    padding: 2rem;
+    padding: 3%;
     text-align: center;
     justify-self: center;
     align-self: center;
@@ -835,6 +1928,7 @@ section .SubBanner3 {
     grid-row: 1/3;
     justify-self: center;
     align-self: center;
+    margin-right: 2%;
 }
 
 .Medical {
@@ -865,7 +1959,6 @@ section .SubBanner3 {
     font-weight: 300;
     margin-left: 5%;
     text-align: left;
-    justify-self: center;
     align-self: center;
     color: white;
 }
@@ -873,13 +1966,18 @@ section .SubBanner3 {
 .MedicalText {
     width: 95%;
     font-size: 1.75rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
     color: black;
     background-color: #D9D9D9;
-    margin-bottom: 3.125rem;
-    box-shadow: 0rem .125rem .125rem #222121;
+    margin-bottom: 3.5%;
+    box-shadow: 0px 2px 2px #222121;
+}
+
+.MedicalText p {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .Mining {
@@ -911,7 +2009,6 @@ section .SubBanner3 {
     font-weight: 300;
     margin-right: 5%;
     text-align: right;
-    justify-self: center;
     align-self: center;
     color: white;
 }
@@ -919,13 +2016,18 @@ section .SubBanner3 {
 .MiningText {
     width: 95%;
     font-size: 1.75rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
     color: black;
     background-color: #D9D9D9;
-    margin-bottom: 3.125rem;
+    margin-bottom: 3.5%;
     box-shadow: 0rem .125rem .125rem #222121;
+}
+
+.MiningText p {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .STONKS {
@@ -956,7 +2058,6 @@ section .SubBanner3 {
     font-weight: 300;
     margin-left: 5%;
     text-align: left;
-    justify-self: center;
     align-self: center;
     color: white;
 }
@@ -964,13 +2065,18 @@ section .SubBanner3 {
 .STONKSText {
     width: 95%;
     font-size: 1.75rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
     color: black;
     background-color: #D9D9D9;
-    margin-bottom: 3.125rem;
-    box-shadow: 0rem .125rem .125rem #222121;
+    margin-bottom: 3.5%;
+    box-shadow: 0px 2px 2px #222121;
+}
+
+.STONKSText p {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .PROTEC {
@@ -1002,7 +2108,6 @@ section .SubBanner3 {
     font-weight: 300;
     margin-right: 5%;
     text-align: right;
-    justify-self: center;
     align-self: center;
     color: white;
 }
@@ -1010,13 +2115,492 @@ section .SubBanner3 {
 .PROTECText {
     width: 95%;
     font-size: 1.75rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
     color: black;
     background-color: #D9D9D9;
-    margin-bottom: 3.125rem;
-    box-shadow: 0rem .125rem .125rem #222121;
+    margin-bottom: 3.5%;
+    box-shadow: 0px 2px 2px #222121;
+}
+
+.PROTECText p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media (max-width: 1300px) {
+    .HeadBanner-Services p {
+        font-size: 1.9rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 2.25rem;
+    }
+
+    .Medical h2 {
+        font-size: 2.25rem;
+    }
+
+    .MedicalText p {
+        font-size: 1.5rem;
+    }
+
+    .Mining h2 {
+        font-size: 2.25rem;
+    }
+
+    .MiningText p {
+        font-size: 1.5rem;
+    }
+
+    .STONKS h2 {
+        font-size: 2.25rem;
+    }
+
+    .STONKSText p {
+        font-size: 1.5rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 2.25rem;
+    }
+
+    .PROTECText p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1030px) {
+    .HeadBanner-Services p {
+        font-size: 1.65rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 2rem;
+    }
+
+    .Medical h2 {
+        font-size: 2rem;
+    }
+
+    .Medical h3 {
+        font-size: 1.4rem;
+    }
+
+    .MedicalText p {
+        font-size: 1.25rem;
+    }
+
+    .Mining h2 {
+        font-size: 2rem;
+    }
+
+    .Mining h3 {
+        font-size: 1.4rem;
+    }
+
+    .MiningText p {
+        font-size: 1.25rem;
+    }
+
+    .STONKS h2 {
+        font-size: 2rem;
+    }
+
+    .STONKS h3 {
+        font-size: 1.4rem;
+    }
+
+    .STONKSText p {
+        font-size: 1.25rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 2rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 1.4rem;
+    }
+
+    .PROTECText p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1030px) {
+    .HeadBanner-Services p {
+        font-size: 1.4rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 1.7rem;
+    }
+
+    .Medical h2 {
+        font-size: 1.7rem;
+    }
+
+    .Medical h3 {
+        font-size: 1.15rem;
+    }
+
+    .MedicalText p {
+        font-size: 1.05rem;
+    }
+
+    .Mining h2 {
+        font-size: 1.7rem;
+    }
+
+    .Mining h3 {
+        font-size: 1.15rem;
+    }
+
+    .MiningText p {
+        font-size: 1.05rem;
+    }
+
+    .STONKS h2 {
+        font-size: 1.7rem;
+    }
+
+    .STONKS h3 {
+        font-size: 1.15rem;
+    }
+
+    .STONKSText p {
+        font-size: 1.05rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 1.7rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 1.15rem;
+    }
+
+    .PROTECText p {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .HeadBanner-Services p {
+        font-size: 1.2rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 1.45rem;
+    }
+
+    .Medical h2 {
+        font-size: 1.45rem;
+    }
+
+    .Medical h3 {
+        font-size: 1.05rem;
+    }
+
+    .MedicalText p {
+        font-size: 0.95rem;
+    }
+
+    .Mining h2 {
+        font-size: 1.45rem;
+    }
+
+    .Mining h3 {
+        font-size: 1.05rem;
+    }
+
+    .MiningText p {
+        font-size: 0.95rem;
+    }
+
+    .STONKS h2 {
+        font-size: 1.45rem;
+    }
+
+    .STONKS h3 {
+        font-size: 1.05rem;
+    }
+
+    .STONKSText p {
+        font-size: 0.95rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 1.45rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 1.05rem;
+    }
+
+    .PROTECText p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .HeadBanner-Services p {
+        font-size: 1rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 1.25rem;
+    }
+
+    .Medical h2 {
+        font-size: 1.25rem;
+    }
+
+    .Medical h3 {
+        font-size: 0.9rem;
+    }
+
+    .MedicalText p {
+        font-size: 0.75rem;
+    }
+
+    .Mining h2 {
+        font-size: 1.25rem;
+    }
+
+    .Mining h3 {
+        font-size: 0.9rem;
+    }
+
+    .MiningText p {
+        font-size: 0.75rem;
+    }
+
+    .STONKS h2 {
+        font-size: 1.25rem;
+    }
+
+    .STONKS h3 {
+        font-size: 0.9rem;
+    }
+
+    .STONKSText p {
+        font-size: 0.75rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 1.25rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 0.9rem;
+    }
+
+    .PROTECText p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .HeadBanner-Services p {
+        font-size: 1rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 1.25rem;
+    }
+
+    .Medical h2 {
+        font-size: 1.25rem;
+    }
+
+    .Medical h3 {
+        font-size: 0.9rem;
+    }
+
+    .MedicalText p {
+        font-size: 0.75rem;
+    }
+
+    .Mining h2 {
+        font-size: 1.25rem;
+    }
+
+    .Mining h3 {
+        font-size: 0.9rem;
+    }
+
+    .MiningText p {
+        font-size: 0.75rem;
+    }
+
+    .STONKS h2 {
+        font-size: 1.25rem;
+    }
+
+    .STONKS h3 {
+        font-size: 0.9rem;
+    }
+
+    .STONKSText p {
+        font-size: 0.75rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 1.25rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 0.9rem;
+    }
+
+    .PROTECText p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .HeadBanner-Services p {
+        font-size: 0.75rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 0.95rem;
+    }
+
+    .Medical h2 {
+        font-size: 0.95rem;
+    }
+
+    .Medical h3 {
+        font-size: 0.65rem;
+    }
+
+    .MedicalText p {
+        font-size: 0.5rem;
+    }
+
+    .Mining h2 {
+        font-size: 0.95rem;
+    }
+
+    .Mining h3 {
+        font-size: 0.65rem;
+    }
+
+    .MiningText p {
+        font-size: 0.5rem;
+    }
+
+    .STONKS h2 {
+        font-size: 0.95rem;
+    }
+
+    .STONKS h3 {
+        font-size: 0.65rem;
+    }
+
+    .STONKSText p {
+        font-size: 0.5rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 0.95rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 0.65rem;
+    }
+
+    .PROTECText p {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .HeadBanner-Services p {
+        font-size: 0.625rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 0.75rem;
+    }
+
+    .Medical h2 {
+        font-size: 0.75rem;
+    }
+
+    .Medical h3 {
+        font-size: 0.5313rem;
+    }
+
+    .Mining h2 {
+        font-size: 0.75rem;
+    }
+
+    .Mining h3 {
+        font-size: 0.5313rem;
+    }
+
+    .STONKS h2 {
+        font-size: 0.75rem;
+    }
+
+    .STONKS h3 {
+        font-size: 0.5313rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 0.75rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 0.5313rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .HeadBanner-Services p {
+        font-size: 0.5rem;
+    }
+
+    .Legend4 h1 {
+        font-size: 0.5938rem;
+    }
+
+    .Medical h2 {
+        font-size: 0.5938rem;
+    }
+
+    .Medical h3 {
+        font-size: 0.5rem;
+    }
+
+    .Mining h2 {
+        font-size: 0.5938rem;
+    }
+
+    .Mining h3 {
+        font-size: 0.5rem;
+    }
+
+    .STONKS h2 {
+        font-size: 0.5938rem;
+    }
+
+    .STONKS h3 {
+        font-size: 0.5rem;
+    }
+
+    .PROTEC h2 {
+        font-size: 0.5938rem;
+    }
+
+    .PROTEC h3 {
+        font-size: 0.5rem;
+    }
 }
 
 /*-----------------------------------------------------------------------------------------------------LOCATION-------------------------------------------------------------------------------------------------------*/
@@ -1058,13 +2642,13 @@ section .SubBanner3 {
 
 .Legend5 h2 {
     font-weight: 300;
-    padding-top: 2.5rem;
-    padding-bottom: 1.875rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .Legend5 p {
     text-align: center;
-    padding: 1.875rem;
+    padding: 2%;
 }
 
 .TextBlock1 {
@@ -1183,6 +2767,170 @@ section .SubBanner3 {
     justify-content: right;
 }
 
+@media (max-width: 1300px) {
+    .HeadBanner-Location h1 {
+        font-size: 2rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 2rem;
+    }
+
+    .LandshipText {
+        font-size: 0.9rem;
+    }
+
+    .BridgeText {
+        font-size: 0.9rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1085px) {
+    .HeadBanner-Location h1 {
+        font-size: 1.75rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 1.75rem;
+    }
+
+    .LandshipText {
+        font-size: 0.79rem;
+    }
+    
+    .BridgeText {
+        font-size: 0.79rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.79rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .HeadBanner-Location h1 {
+        font-size: 1.5rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 1.5rem;
+    }
+    
+    .LandshipText {
+        font-size: 0.65rem;
+    }
+    
+    .BridgeText {
+        font-size: 0.65rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .HeadBanner-Location h1 {
+        font-size: 1.25rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 1.25rem;
+    }
+    
+    .LandshipText {
+        font-size: 0.5rem;
+    }
+    
+    .BridgeText {
+        font-size: 0.5rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .HeadBanner-Location h1 {
+        font-size: 1.05rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 1.05rem;
+    }
+    
+    .LandshipText {
+        font-size: 0.4rem;
+    }
+    
+    .BridgeText {
+        font-size: 0.4rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .HeadBanner-Location h1 {
+        font-size: 0.79rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 0.79rem;
+    }
+    
+    .LandshipText {
+        font-size: 0.35rem;
+    }
+    
+    .BridgeText {
+        font-size: 0.35rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.35rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .HeadBanner-Location h1 {
+        font-size: 0.65rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 0.65rem;
+    }
+    
+    .LandshipText {
+        font-size: 0.3rem;
+    }
+    
+    .BridgeText {
+        font-size: 0.3rem;
+    }
+
+    .WarningSistemText {
+        font-size: 0.3rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .HeadBanner-Location h1 {
+        font-size: 0.55rem;
+    }
+
+    .Legend5 h2 {
+        font-size: 0.55rem;
+    }
+}
+
 /*------------------------------------------------------------------------------------------------ORIPATHY------------------------------------------------------------------------------------------------------------*/
 
 .HeadBanner-Oripathy {
@@ -1190,19 +2938,20 @@ section .SubBanner3 {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
     width: 95%;
-    margin-top: 3.75rem;
-    margin-bottom: 3.75rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .HeadBanner-Oripathy img{
     width: 100%;
     grid-column: 1/5;
     grid-row: 1/3;
-    box-shadow: 0rem .125rem .125rem #222121;
+    box-shadow: 0px 2px 2px #222121;
 }
 
 .OrSpeech1 {
     grid-column: 2/4;
     grid-row: 1/3;
+    font-size: 2rem;
     text-align: center;
     justify-self: center;
     align-self: center;
@@ -1214,7 +2963,8 @@ section .SubBanner3 {
     grid-row: 2/3;
     font-size: 1.5rem;
     justify-self: center;
-    align-self: center;
+    align-self: flex-end;
+    margin-bottom: 7%;
     color: white;
 }
 
@@ -1227,14 +2977,14 @@ section .SubBanner3 {
 
 .OrDescription h1 {
     text-align: center;
-    padding: 2.25rem;
+    padding: 3%;
     font-weight: 300;
 }
 
 .OrDescription p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
 }
 
 .Transmission {
@@ -1246,15 +2996,15 @@ section .SubBanner3 {
 
 .Transmission h2 {
     font-weight: 300;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
 }
 
 .Transmission p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
 }
 
 .Diagnosis {
@@ -1266,15 +3016,15 @@ section .SubBanner3 {
 
 .Diagnosis h2 {
     font-weight: 300;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
 }
 
 .Diagnosis p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
 }
 
 .Treatment {
@@ -1286,15 +3036,15 @@ section .SubBanner3 {
 
 .Treatment h2 {
     font-weight: 300;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
 }
 
 .Treatment p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
 }
 
 .Stages {
@@ -1306,21 +3056,21 @@ section .SubBanner3 {
 
 .Stages h2 {
     font-weight: 300;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
 }
 
 .Stages p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
 }
 
 .Stages li {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5%;
     list-style: none;
 }
 
@@ -1332,6 +3082,143 @@ section .SubBanner3 {
 .OripathyDepictionText {
     text-align: center;
     font-size: 1rem;
+    margin-top: 0.5%;
+}
+
+@media (max-width: 1300px) {
+    .OrSpeech1 {
+        font-size: 1.6rem;
+    }
+
+    .OrSpeech2 {
+        font-size: 1.25rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 2rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .OrSpeech1 {
+        font-size: 1.4rem;
+    }
+
+    .OrSpeech2 {
+        font-size: 1.05rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 1.65rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.79rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .OrSpeech1 {
+        font-size: 1.15rem;
+    }
+
+    .OrSpeech2 {
+        font-size:0.85rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 1.5rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .OrSpeech1 {
+        font-size: 1rem;
+    }
+
+    .OrSpeech2 {
+        font-size:0.7rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 1.2rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .OrSpeech1 {
+        font-size: 0.82rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .OrSpeech1 {
+        font-size: 0.65rem;
+    }
+
+    .OrSpeech2 {
+        font-size: 0.59rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 0.95rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.35rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .OrSpeech1 {
+        font-size: 0.5rem;
+    }
+
+    .OrSpeech2 {
+        font-size: 0.45rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 0.8rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.3rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .OrSpeech1 {
+        font-size: 0.45rem;
+    }
+
+    .OrSpeech2 {
+        font-size: 0.35rem;
+    }
+
+    .OrDescription h1 {
+        font-size: 0.75rem;
+    }
+
+    .OripathyDepictionText {
+        font-size: 0.3rem;
+    }
 }
 
 /*-----------------------------------------------------------------------------------------------JOIN US--------------------------------------------------------------------------------------------------------------*/
@@ -1341,7 +3228,7 @@ section .SubBanner3 {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     width: 95%;
-    margin-top: 3.75rem;
+    margin-top: 5%;
     align-items: center;
 }
 
@@ -1365,7 +3252,7 @@ section .SubBanner3 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 95%;
-    padding-bottom: 2rem;
+    padding-bottom: 2%;
     background-color: #D9D9D9;
 }
 
@@ -1390,7 +3277,7 @@ section .SubBanner3 {
     grid-row: 4/5;
     justify-self: center;
     align-self: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2%;
 }
 
 .InfoBlock2 button {
@@ -1405,7 +3292,7 @@ section .SubBanner3 {
     font-style: normal;
     color: white;
     background-color: #22BBFF;
-    box-shadow: .05rem .05rem .125rem #1a1919;
+    box-shadow: .8px .8px 2px #1a1919;
     justify-self: center;
     align-self: center;
     grid-column: 2/3;
@@ -1416,8 +3303,8 @@ section .SubBanner3 {
     grid-column: 1/3;
     grid-row: 6/7;
     font-size: 1rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     align-self: flex-end;
 }
 
@@ -1445,9 +3332,9 @@ section .SubBanner3 {
 .SubBanner4 p {
     grid-column: 1/3;
     grid-row: 2/4;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
     text-align: center;
     justify-self: center;
     align-self: flex-start;
@@ -1458,22 +3345,144 @@ section .SubBanner3 {
     display: flex;
     flex-direction: column;
     width: 95%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
     background-color: #D9D9D9;
 }
 
 .InfoBlock3 h2 {
     font-weight: 300;
-    margin-bottom: 1.5rem;
-    margin-left: 7rem;
+    margin-bottom: 1.5%;
+    margin-left: 5%;
 }
 
 .InfoBlock3 p {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .InfoBlock3 p:last-child {
-    margin-top: 1rem;
+    margin-top: 1%;
+}
+
+@media (max-width: 1350px) {
+    .HeadBanner-JoinUs span {
+        font-size: 3.25rem;
+    }
+
+    .InfoBlock2 button {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .InfoBlock2 button {
+        font-size: 1.65rem;
+    }
+}
+
+@media (max-width: 1130px) {
+    .InfoBlock2 button {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .InfoBlock2 p:last-child {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .InfoBlock2 button {
+        font-size: 1.25rem;
+    }
+
+    .InfoBlock2 p:last-child {
+        font-size: 0.79rem;
+    }
+}
+
+@media (max-width: 1130px) {
+    .HeadBanner-JoinUs span {
+        font-size: 2.85rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .HeadBanner-JoinUs span {
+        font-size: 2.5rem;
+    }
+
+    .InfoBlock2 p {
+        font-size: 1rem;
+    }
+
+    .InfoBlock2 button {
+        font-size: 1.05rem;
+    }
+
+    .InfoBlock2 p:last-child {
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .HeadBanner-JoinUs span {
+        font-size: 2rem;
+    }
+
+    .InfoBlock2 p {
+        font-size: 0.85rem;
+    }
+
+    .InfoBlock2 button {
+        font-size: 0.95rem;
+    }
+
+    .InfoBlock2 p:last-child {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .HeadBanner-JoinUs span {
+        font-size: 1.7rem;
+    }
+
+    .InfoBlock2 p {
+        font-size: 0.7rem;
+    }
+
+    .InfoBlock2 button {
+        font-size: 0.7rem;
+    }
+
+    .InfoBlock2 p:last-child {
+        font-size: 0.35rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .HeadBanner-JoinUs span {
+        font-size: 1.45rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .HeadBanner-JoinUs span {
+        font-size: 1.2rem;
+    }
+
+    .InfoBlock2 p {
+        font-size: 0.5rem;
+    }
+
+    .InfoBlock2 button {
+        font-size: 0.5rem;
+    }
+
+    .InfoBlock2 p:last-child {
+        font-size: 0.3rem;
+    }
 }
