@@ -1,0 +1,222 @@
+
+.HeadBanner-Index {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top: 3%;
+    background: linear-gradient(to bottom left, #22BBFF, #1F87C8);
+    box-shadow: 0px 2px 2px #1a1919;
+    }
+    img {
+        width: 60%;
+        grid-column: 1/3;
+        grid-row: 1/3;
+        justify-self: center;
+    }
+    p {
+        grid-column: 3/4;
+        grid-row: 1/3;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+    }
+    span {
+        grid-column: 4/5;
+        grid-row: 2/3;
+        font-size: 1.5rem;
+        color: white;
+}
+
+.Legend-Index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    gap: 5%;
+    background-image: $Gradient-Top;
+    h1{
+        font-weight: 300;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5625rem;
+        color: black;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.InfoBlock-Index {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-bottom: 5%;
+    background-image: $Gradient-Bottom;
+    box-shadow: 0px 2px 2px #141414;
+}
+
+.About-Shortcut {
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-self: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #545454;
+    box-shadow: 0px 2px 2px #1a1919;
+    img {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        text-align: left;
+        font-size: 1.9rem;
+        margin-left: 1%;
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+    span {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-self: right;
+        align-self: end;
+        font-size: 1.5625rem;
+        color: white;
+        margin-bottom: 3%;
+        margin-right: 15%;
+    }
+}
+
+.Affiliates-Shortcut {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 85%;
+    align-self: flex-end;
+    margin-top: 10%;
+    margin-right: 5%;
+    background-color: #545454;
+    box-shadow: 0px 2px 2px #1a1919;
+    img {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        width: 100%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    p {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        text-align: right;
+        font-size: 1.9rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+    span {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-self: left;
+        align-self: end;
+        font-size: 1.5625rem;
+        color: white;
+        margin-bottom: 3%;
+        margin-left: 15%;
+    }
+}
+
+.Oripathy-Shortcut {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,min-content);
+    grid-template-rows: auto;
+    align-self: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    align-items: center;
+    .P1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+        font-size: 1.9rem;
+        margin-left: 3%;
+        color: black;
+    }
+    img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 60%;
+    }
+    .P2 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        font-size: 1.9rem;
+        text-align: right;
+        margin-right: 3%;
+        color: black;
+    }
+    span {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        color: black;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.5625rem;
+    }
+}
+
+.Location-Shortcut {
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-self: left;
+    margin-left: 5%;
+    background-color: #545454;
+    box-shadow: 0px 2px 2px #1a1919;
+    img {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        text-align: left;
+        font-size: 1.9rem;
+        margin-left: 1%;
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+    span {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-self: right;
+        align-self: end;
+        font-size: 1.5625rem;
+        color: white;
+        margin-bottom: 3%;
+        margin-right: 15%;
+    }
+}

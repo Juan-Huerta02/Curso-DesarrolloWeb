@@ -1,0 +1,254 @@
+
+@media (max-width:395px) {
+    header {
+        a{
+            img{
+                width: 55px;
+            }
+        }
+        ul{
+        gap: 8px;
+        li{
+            a{
+                font-size: 0.6rem;
+            }
+        }
+        }
+    }
+
+    /*-----------------------------INDEX----------------------------*/
+
+    .HeadBanner-Index {
+        p {
+            font-size: 0.75rem;
+        }
+    }
+
+    .About-Shortcut {
+        p {
+            align-self: center;
+            font-size: 0.8rem;
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        span {
+            margin-bottom: 10%;
+        }
+    }
+
+    /*----------------------------------ABOUT----------------------------------*/
+
+    .HeadBanner-About {
+        p {
+            font-size: 0.6rem;
+            grid-column: 2/3;
+            text-align: right;
+        }
+    }
+
+    .Achievements {
+        div {
+            flex-direction: column;
+            dl {
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    /*----------------------------AFFILIATES-----------------------------*/
+
+    .HeadBanner-Affiliates {
+        p {
+            font-size: 0.75rem;
+        }
+    }
+
+    /*--------------------------SERVICES--------------------------------*/
+
+    .HeadBanner-Services {
+        p {
+            font-size: 0.85rem;
+        }
+    }
+    
+    .Legend-Services {
+        h1 {
+            font-size: 0.85rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
+    }
+    
+    .Services-Left {
+        h2 {
+            font-size: 0.8rem;
+        }
+        h3 {
+            font-size: 0.7rem;
+        }
+    }
+    
+    .Services-Right {
+        h2 {
+            font-size: 0.8rem;
+        }
+        h3 {
+            font-size: 0.7rem;
+        }
+    }
+    
+    .Services-Text {
+        p {
+            font-size: 0.6rem;
+        }
+    }
+
+    /*-----------------------------LOCATION------------------------------*/
+
+    .HeadBanner-Location {
+        h1 {
+            font-size: 0.8rem;
+        }
+    }
+    
+    .Legend-Location {
+        h2 {
+            font-size: 0.9rem;
+        }
+        p {
+            font-size: 0.65rem;
+        }
+    }
+    
+    .Info-Location {
+        h2 {
+            font-size: 0.9rem;
+        }
+        p {
+            font-size: 0.65rem;
+        }
+    }
+    
+    .Branch-right {
+        h3 {
+            font-size: 0.9rem;
+        }
+        span {
+            font-size: 0.65rem;
+        }
+    }
+    
+    .Branch-left {
+        h3 {
+            font-size: 0.9rem;
+        }
+        span {
+            font-size: 0.65rem;
+        }
+    }
+    
+    .Location-Landship {
+        p {
+            font-size: 0.65rem;
+        }
+        span {
+            font-size: 0.5rem;
+        }
+    }
+
+    /*---------------------ORIPATHY-----------------------*/
+
+    .HeadBanner-Oripathy {
+        p {
+            font-size: 0.65rem;
+        }
+        span {
+            font-size: 0.5rem;
+            margin-top: 10%;
+        }
+    }
+    
+    .OrDescription {
+        h1 {
+            font-size: 0.7rem;
+        }
+        p {
+            font-size: 0.65rem;
+        }
+    }
+    
+    .OrInfo {
+        h2 {
+            font-size: 0.8rem;
+        }
+        p {
+            font-size: 0.65rem;
+        }
+    }
+    
+    .OrStages {
+        h2 {
+            font-size: 0.8rem;
+        }
+        p {
+            font-size: 0.65rem;
+        }
+        ul {
+            font-size: 0.65rem;
+        }
+    }
+
+    /*------------------------JOIN------------------------*/
+
+    .HeadBanner-JoinUs {
+        span {
+            font-size: 1.25rem;
+        }
+    }
+    
+    .RecruitText-Join {
+        h1 {
+            font-size: 1.1rem;
+        }
+        .jointext1 {
+            font-size: 0.7rem;
+        }
+        .jointext2 {
+            font-size: 0.7rem;
+        }
+        button {
+            border-radius: 6px;
+            font-size: 1rem;
+            height: 37px;
+            width: 60%;
+        }
+    }
+    
+    .InfoBlock-Join {
+        h2 {
+            font-size: 1.1rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
+    }
+
+    /*--------------------FOOTER-----------------------*/
+
+    footer {
+        ul {
+            font-size: 0.5rem;
+            gap: 8px;
+        }
+        div {
+            width: fit-content;
+            height: fit-content;
+            padding-top: 3.5%;
+            padding-bottom: 3.5%;
+            }
+            img{
+                width: 45px;
+            }
+        }
+}

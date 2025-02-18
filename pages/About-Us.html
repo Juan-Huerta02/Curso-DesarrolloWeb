@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Learn more about us, what drive us and what we have achieved">
+    <title>Rhodes Island - About Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="Header-Mq">
         <a class="NavLogo" href="../index.html">
-            <img src="../assets/pictrs/BackgroundEraser_20241218_163847413.png" alt="">
+            <img src="../assets/pictrs/Navbar-img.png" alt="">
         </a>
         <nav>
             <ul class="NavBar">
@@ -27,44 +29,46 @@
     </header>
     <main>
         <section class="HeadBanner-About">
-            <img src="../assets/pictrs/We_Are_Rhodes_Island.png" alt="">
+            <img src="../assets/pictrs/About-Banner.png" alt="">
             <p>“When one is committed to constant reflection and tempering of is ideals, we are willing to serve as his forge”</p>
         </section>
-        <section class="Legend2">
+        <section class="Legend-About">
             <h1>Who we are</h1>
             <p>Rhodes Island Pharmaceuticals Inc. is a registered drug R&D company working on medical solutions for countries, organizations, and individuals infected with Oripathy. To achieve our goal, Rhodes Island recruits talent from all around the world, regardless of background, experience, or condition. Furthermore, Rhodes Island is committed to providing the best medical and living conditions for its employees, attracting movers and shakers - Infected or not - to try to change the world.</p>
         </section>
-        <section class="Mission1">
-            <img src="../assets/pictrs/Background-Lungmen_RI_Office.png" alt="">
+        <section class="Mission-About">
+            <img src="../assets/pictrs/Rhodes-Office1.png" alt="">
             <h2>Our Mission</h2>
             <p>At Rhodes Island, we are commited to combat the oriphaty crisis, developing novel medical equipment and medicines.</p>
         </section>
-        <section class="Legend3">
+        <section class="Legend-About2">
             <h2>What drives us to keep going</h2>
             <p>The goal has no meaning if the path to reach it is not the correct one. We firmly believe that every individual, regardless of race or status, as the right to live a peaceful life and we are working to make that a reality.</p>
         </section>
-        <section class="Achievements">
+        <div class="Legend-About3">
             <h2>What we have achieved</h2>
-            <dl class="Suppressant">
-                <img src="../assets/pictrs/Medic-logo.png" alt="">
-                <dt>Developers of the first effective oripathy suppressant</dt>
-                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</dd>
-            </dl>
-            <dl class="Envoys">
-                <img src="../assets/pictrs/BP_Zone_2.png" alt="">
-                <dt>Envoys of the lands</dt>
-                <dd>Rhodes Island was chosen by Iberia's Inquisition to be the official representatives of the lands and negociate with the underwater nation of Ægir in the first sea-land cooperation since over 200 years</dd>
-            </dl>
-            <dl>
-                <img src="" alt="">
-                <dt></dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <img src="" alt="">
-                <dt></dt>
-                <dd></dd>
-            </dl>
+        </div>
+        <section class="Achievements">
+            <div>
+                <dl data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <img src="../assets/pictrs/Achievement-1.png" alt="">
+                    <dt>Developers of the first effective oripathy suppressant</dt>
+                    <dd>We were the first to develope a safe compound that effectively slow and stop the spreading of the Oripathic infection.</dd>
+                </dl>
+                <dl data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <img src="../assets/pictrs/Achievement-2.png" alt="">
+                    <dt>Envoys of the lands</dt>
+                    <dd>Rhodes Island was chosen by Iberia's Inquisition to be the official representatives of the lands in the first sea-land cooperation since over 200 years</dd>
+                </dl>
+                <dl data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <img src="../assets/pictrs/Achievement-3.png" alt="">
+                    <dt>Victoria's Peacekeepers</dt>
+                    <dd>After many sacrifices, our intervention succesfully manage to put an end to the Victorian-Kazdelian War, saving thousands of lives.</dd>
+                </dl>
+            </div>
         </section>
     </main>
     <footer>
@@ -84,5 +88,9 @@
             <li>Contact</li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

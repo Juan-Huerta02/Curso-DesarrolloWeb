@@ -1,0 +1,35 @@
+
+.Achievements {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    padding-bottom: 3%;
+    background-image: $Gradient-Right;
+    box-shadow: 0px 2px 2px #1a1919;
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 2.5%;
+        dl {
+            font-size: 1rem;
+            width: 250px;
+            height: 440px;
+            border-radius: 5px;
+            text-align: center;
+            justify-self: center;
+            align-self: center;
+            background-color: white;
+            padding: 16px;
+            box-shadow: 0px 2px 2px #1a1919;
+            dt{
+                padding-top: 20px;
+                padding-bottom: 16px;
+            }
+            img{
+                width: 250px; 
+                height: 248px;
+                border-radius: 16px;
+            }
+        }
+    }
+}
